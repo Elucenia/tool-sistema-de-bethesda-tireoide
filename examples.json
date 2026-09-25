@@ -1,0 +1,68 @@
+[
+  {
+    "label": "Categoria II (benigna): risco de 4%",
+    "input": {
+      "cat": "2"
+    },
+    "expected": {
+      "raw": {
+        "cat": 2,
+        "rom": 4
+      },
+      "level": "low"
+    },
+    "originalInput": {
+      "cat": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Categoria III (AUS): risco de 22%",
+    "input": {
+      "cat": "3"
+    },
+    "expected": {
+      "raw": {
+        "rom": 22
+      },
+      "level": "mid"
+    },
+    "originalInput": {
+      "cat": "3"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Categoria V (suspeita): risco de 74%",
+    "input": {
+      "cat": "5"
+    },
+    "expected": {
+      "raw": {
+        "rom": 74
+      },
+      "level": "high"
+    },
+    "originalInput": {
+      "cat": "5"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "Categoria I (não diagnóstica): repetir a punção",
+    "input": {
+      "cat": "1"
+    },
+    "expected": {
+      "raw": {
+        "rom": 13
+      },
+      "level": "mid",
+      "verdict": "não diagnóstica"
+    },
+    "originalInput": {
+      "cat": "1"
+    },
+    "expandedZeroOptions": []
+  }
+]

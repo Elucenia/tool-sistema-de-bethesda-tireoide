@@ -1,0 +1,169 @@
+{
+  "tool": {
+    "id": "sistema-de-bethesda-tireoide",
+    "title": "Sistema de Bethesda para citologia de tireoide",
+    "short": "Risco de malignidade da PAAF de tireoide (2023)",
+    "desc": "Sistema de Bethesda 2023 para citologia de tireoide: risco médio de malignidade de cada categoria da PAAF e a conduta usual em adultos.",
+    "lead": "Traduz a categoria do laudo da punção aspirativa por agulha fina (PAAF) de nódulo tireoidiano no risco de malignidade e na conduta recomendada pela 3ª edição (2023).",
+    "spec": [
+      "cirurgia-de-cabeca-e-pescoco",
+      "endocrinologia-e-metabologia",
+      "patologia",
+      "cirurgia-oncologica"
+    ],
+    "tier": 1,
+    "fields": [
+      [
+        "cat",
+        "Categoria do laudo",
+        "sel",
+        {
+          "opts": {
+            "1": "I · Não diagnóstica",
+            "2": "II · Benigna",
+            "3": "III · Atipia de significado indeterminado (AUS)",
+            "4": "IV · Neoplasia folicular",
+            "5": "V · Suspeita de malignidade",
+            "6": "VI · Maligna"
+          }
+        }
+      ]
+    ],
+    "formula": "<p>Seis categorias diagnósticas, cada uma com um risco de malignidade (ROM) médio e uma faixa esperada, atualizados na 3ª edição (2023), que passou a usar um nome único por categoria e dividiu a AUS em dois subgrupos (atipia nuclear e outras).</p>",
+    "table": [
+      [
+        "Categoria",
+        "Risco médio (faixa)",
+        "Conduta usual"
+      ],
+      [
+        "I · Não diagnóstica",
+        "13% (5 a 20%)",
+        "Repetir PAAF guiada por ultrassom"
+      ],
+      [
+        "II · Benigna",
+        "4% (2 a 7%)",
+        "Seguimento clínico e ultrassonográfico"
+      ],
+      [
+        "III · AUS",
+        "22% (13 a 30%)",
+        "Repetir PAAF, teste molecular, lobectomia ou vigilância"
+      ],
+      [
+        "IV · Neoplasia folicular",
+        "30% (23 a 34%)",
+        "Teste molecular ou lobectomia diagnóstica"
+      ],
+      [
+        "V · Suspeita de malignidade",
+        "74% (67 a 83%)",
+        "Teste molecular, lobectomia ou tireoidectomia quase total"
+      ],
+      [
+        "VI · Maligna",
+        "97% (97 a 100%)",
+        "Lobectomia ou tireoidectomia quase total"
+      ]
+    ],
+    "table_note": "Riscos em adultos (Bethesda 2023). Em crianças, os riscos das categorias indeterminadas são maiores.",
+    "tips": [
+      "Em <strong>crianças</strong>, o risco das categorias III a V é maior e a conduta muda (a 3ª edição traz algoritmos pediátricos): a lobectomia é preferida ao seguimento nas categorias indeterminadas.",
+      "Na categoria III, a AUS com atipia nuclear tem risco maior que as demais atipias: confira o subgrupo no laudo.",
+      "A decisão de puncionar depende do tamanho e da classificação ultrassonográfica (ACR TI-RADS ou similar), não do Bethesda.",
+      "Um nódulo benigno (II) com crescimento significativo ou aspecto muito suspeito ao ultrassom merece nova punção.",
+      "A extensão da cirurgia nos casos V e VI depende do tamanho, de extensão extratireoidiana e de linfonodos, conforme diretriz vigente."
+    ],
+    "sources": [
+      [
+        "Ali SZ et al. The 2023 Bethesda System for Reporting Thyroid Cytopathology. Thyroid, 2023.",
+        "https://doi.org/10.1089/thy.2023.0141"
+      ]
+    ],
+    "cases": [
+      [
+        "Categoria II (benigna): risco de 4%",
+        {
+          "cat": "2"
+        },
+        {
+          "raw": {
+            "cat": 2,
+            "rom": 4
+          },
+          "level": "low"
+        }
+      ],
+      [
+        "Categoria III (AUS): risco de 22%",
+        {
+          "cat": "3"
+        },
+        {
+          "raw": {
+            "rom": 22
+          },
+          "level": "mid"
+        }
+      ],
+      [
+        "Categoria V (suspeita): risco de 74%",
+        {
+          "cat": "5"
+        },
+        {
+          "raw": {
+            "rom": 74
+          },
+          "level": "high"
+        }
+      ],
+      [
+        "Categoria I (não diagnóstica): repetir a punção",
+        {
+          "cat": "1"
+        },
+        {
+          "raw": {
+            "rom": 13
+          },
+          "level": "mid",
+          "verdict": "não diagnóstica"
+        }
+      ]
+    ],
+    "batch": "cirurgia-sentidos",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cirurgia-sentidos",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/cirurgia-sentidos.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/cirurgia-sentidos.php",
+    "sha256": "21fc91a9a8187a66496f68c2ac8fbdd20a65ceeea519687c963b857f72640866",
+    "bytes": 89063
+  },
+  "clinicalValidation": "not-performed"
+}
