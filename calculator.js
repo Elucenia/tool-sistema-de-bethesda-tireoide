@@ -1,11 +1,11 @@
-/* tool-sistema-de-bethesda-tireoide · Elucenia · https://github.com/Elucenia/tool-sistema-de-bethesda-tireoide
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-sistema-de-bethesda-tireoide · ELUCENIA · https://github.com/Elucenia/tool-sistema-de-bethesda-tireoide
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"sistema-de-bethesda-tireoide","title":"Sistema de Bethesda para citologia de tireoide","fields":[["cat","Categoria do laudo","sel",{"opts":{"1":"I · Não diagnóstica","2":"II · Benigna","3":"III · Atipia de significado indeterminado (AUS)","4":"IV · Neoplasia folicular","5":"V · Suspeita de malignidade","6":"VI · Maligna"}}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
