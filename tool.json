@@ -5,13 +5,13 @@
     "short": "Risco de malignidade da PAAF de tireoide (2023)",
     "desc": "Sistema de Bethesda 2023 para citologia de tireoide: risco médio de malignidade de cada categoria da PAAF e a conduta usual em adultos.",
     "lead": "Traduz a categoria do laudo da punção aspirativa por agulha fina (PAAF) de nódulo tireoidiano no risco de malignidade e na conduta recomendada pela 3ª edição (2023).",
+    "kind": "Calculadora",
     "spec": [
       "cirurgia-de-cabeca-e-pescoco",
       "endocrinologia-e-metabologia",
       "patologia",
       "cirurgia-oncologica"
     ],
-    "tier": 1,
     "fields": [
       [
         "cat",
@@ -30,51 +30,6 @@
       ]
     ],
     "formula": "<p>Seis categorias diagnósticas, cada uma com um risco de malignidade (ROM) médio e uma faixa esperada, atualizados na 3ª edição (2023), que passou a usar um nome único por categoria e dividiu a AUS em dois subgrupos (atipia nuclear e outras).</p>",
-    "table": [
-      [
-        "Categoria",
-        "Risco médio (faixa)",
-        "Conduta usual"
-      ],
-      [
-        "I · Não diagnóstica",
-        "13% (5 a 20%)",
-        "Repetir PAAF guiada por ultrassom"
-      ],
-      [
-        "II · Benigna",
-        "4% (2 a 7%)",
-        "Seguimento clínico e ultrassonográfico"
-      ],
-      [
-        "III · AUS",
-        "22% (13 a 30%)",
-        "Repetir PAAF, teste molecular, lobectomia ou vigilância"
-      ],
-      [
-        "IV · Neoplasia folicular",
-        "30% (23 a 34%)",
-        "Teste molecular ou lobectomia diagnóstica"
-      ],
-      [
-        "V · Suspeita de malignidade",
-        "74% (67 a 83%)",
-        "Teste molecular, lobectomia ou tireoidectomia quase total"
-      ],
-      [
-        "VI · Maligna",
-        "97% (97 a 100%)",
-        "Lobectomia ou tireoidectomia quase total"
-      ]
-    ],
-    "table_note": "Riscos em adultos (Bethesda 2023). Em crianças, os riscos das categorias indeterminadas são maiores.",
-    "tips": [
-      "Em <strong>crianças</strong>, o risco das categorias III a V é maior e a conduta muda (a 3ª edição traz algoritmos pediátricos): a lobectomia é preferida ao seguimento nas categorias indeterminadas.",
-      "Na categoria III, a AUS com atipia nuclear tem risco maior que as demais atipias: confira o subgrupo no laudo.",
-      "A decisão de puncionar depende do tamanho e da classificação ultrassonográfica (ACR TI-RADS ou similar), não do Bethesda.",
-      "Um nódulo benigno (II) com crescimento significativo ou aspecto muito suspeito ao ultrassom merece nova punção.",
-      "A extensão da cirurgia nos casos V e VI depende do tamanho, de extensão extratireoidiana e de linfonodos, conforme diretriz vigente."
-    ],
     "sources": [
       [
         "Ali SZ et al. The 2023 Bethesda System for Reporting Thyroid Cytopathology. Thyroid, 2023.",
@@ -133,9 +88,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -144,17 +96,595 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T20:53:44.621Z",
+      "total": 6,
+      "passed": 6,
+      "sourceRowCount": 6,
+      "uniqueApiInputCount": 6,
+      "sourceContextCount": 6,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "scope": "Identity of six already assigned FNA category codes only. All mean/range values observed from outputs remain outside executed primary-publisher numeric scope.",
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "75c9ed0942d35f4d181cb3707cdc08c8ec1629b4f6a93e223111b190ea674a09",
+        "total": 6,
+        "bankRowCount": 6,
+        "uniqueApiInputCount": 6,
+        "sourceContextCount": 6,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/six-primary-independent-expectations-final30.json",
+            "sha256": "7767013002c928ad8b35fabfec35fa3edde886d78f8152cfb3624a112e1732a6"
+          },
+          {
+            "file": "reports/review-20261003/six-primary-source-review-final30.json",
+            "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+          "sha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0"
+        },
+        "packagingRequirement": "All bounded raw-only rows byte exact, original202 expectations and separate1178-peer witness receipt preserved"
+      },
+      "sources": [
+        {
+          "review": {
+            "file": "reports/review-20261003/six-primary-source-review-final30.json",
+            "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+          },
+          "item": {
+            "id": "sistema-de-bethesda-tireoide",
+            "sourceIds": [
+              "bethesda2023-publisher-abstract",
+              "bethesda2023-original-reproduction"
+            ],
+            "executedScope": "Identity of six already assigned FNA category codes only. All mean/range values observed from outputs remain outside executed primary-publisher numeric scope.",
+            "inputPopulation": "Thyroid FNA cytopathology category from a laboratory report. Adult default risks cannot automatically be applied to pediatric patients.",
+            "sourceSupportedLimits": "ROM estimates are edition/population-dependent and subject to surgery-selection bias.2023 has distinct pediatric discussion; category selection is not a cytopathologic diagnosis.",
+            "findings": [
+              {
+                "kind": "source-internal-range-difference",
+                "confirmed": true,
+                "issue": "AUS body range20–32 differs from Table2 range13–30 in the original reproduced article; publisher full table was inaccessible.",
+                "implementation": "Current adult mean22 and range13–30 correspond to the reproduced Table2, without upgrading that observation to individual risk validation."
+              }
+            ],
+            "unchecked": [
+              "Publisher full primary Table2",
+              "Original third-edition atlas",
+              "Individual ROM or pediatric ROM",
+              "Management and AUS subtype administration"
+            ],
+            "current": {
+              "id": "sistema-de-bethesda-tireoide",
+              "recordSha256": "643ac098b3766de734761b50b8aaf25071dec0da1d722a6417bdd0638ca621fe",
+              "frozenRecordFile": "reports/review-20261003/six-primary-frozen-inputs-final30/selected-records/sistema-de-bethesda-tireoide.json",
+              "frozenRecordSha256": "772820c36d59312d3b17fa31b304e5cbeaa5320fe042a98cc9195bc5ba4c0be5",
+              "methodVersion": "Bethesda Thyroid 2023 3ªedição:6 categorias, ROM e AUS nuclear/other",
+              "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
+              "adapters": [
+                {
+                  "file": "apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                  "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+                  "bytes": 5336,
+                  "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                  "currentSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+                },
+                {
+                  "file": "apps/dashboard/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                  "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+                  "bytes": 5336,
+                  "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/dashboard/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                  "currentSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+                },
+                {
+                  "file": "apps/command-center/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                  "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+                  "bytes": 5336,
+                  "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/command-center/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                  "currentSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+                }
+              ]
+            },
+            "clinicalApproval": "not-performed",
+            "professionalLanguageApproval": "not-performed",
+            "rightsApproval": "not-performed",
+            "fullMethodConformance": "not-performed"
+          },
+          "sources": [
+            {
+              "id": "bethesda2023-publisher-abstract",
+              "url": "https://journals.sagepub.com/doi/abs/10.1089/thy.2023.0141",
+              "doi": "10.1089/thy.2023.0141",
+              "edition": "Ali et al., Thyroid2023;33:1039–1044, third edition",
+              "access": "Original publisher abstract directly read; publisher PDF403",
+              "readScope": "Six single category names, nuclear/other AUS subtypes and edition changes. Original atlas and full primary-publisher table not obtained.",
+              "tableRead": false,
+              "visualPdfRead": false
+            },
+            {
+              "id": "bethesda2023-original-reproduction",
+              "url": "https://www.slideshare.net/slideshow/ali-et-al-2023-the-2023-bethesda-system-for-reporting-thyroid-cytopathology-pdf/268973517",
+              "edition": "Third-party reproduction of original Ali2023 six-page article, not the uploader AI description",
+              "access": "Original page-image alternative text/table transcription directly read; captured original page3 image is320px wide, personally viewed with insufficient resolution for comprehensive numeric visual confirmation",
+              "document": {
+                "file": "six-primary-documents-final30/bethesda-original-reproduction.html",
+                "bytes": 1363839,
+                "sha256": "9f813fbecae9fd22f69dabb09acd36d0af3eedb54e94ed0bc188536e2b19e2ff"
+              },
+              "renderedPages": [
+                {
+                  "file": "six-primary-documents-final30/bethesda-reproduced-original-p3.jpg",
+                  "bytes": 28010,
+                  "sha256": "d61adb98a44a30b26490cf6c6262b1a3c57c05de2189985710086171119ad896"
+                }
+              ],
+              "readScope": "Table1 printed1040 names; Table2 printed1041 adult mean/ranges and surgical-selection-bias footnotes; body printed1042 and pediatric Table3. Only the category identities enter the executed source scope. Adult ROM transcription is retained as unexecuted evidence.",
+              "tableRead": "original reproduction text; low-resolution image limitation",
+              "visualPdfRead": false,
+              "internalDifference": "Adult AUS range is13–30 in Table2 and20–32 in the body paragraph; mean22 is common. No silent adjudication or individual ROM approval.",
+              "excluded": "No primary-publisher full table confirmation, pediatric risk extrapolation, histologic diagnosis or management approval"
+            }
+          ]
+        }
+      ],
+      "evidencePath": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+      "evidenceSha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0",
+      "independentPeer": {
+        "status": "passed",
+        "file": "reports/review-20261003/six-source30-independent-peer-verify.json",
+        "sha256": "8363a3375f1cb04def35d9225a8df412654c0c235aeb149db94e73aaecdf2da3",
+        "scope": "Independent selected source expectations202 and additional1178 own witnesses; primary access limitations and clinical/rubric exclusions remain explicit.",
+        "sourcePeerInputCount": 1178,
+        "packagingPeer": "pending",
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+          "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+          "app": "website"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+          "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+          "app": "dashboard"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+          "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+          "app": "command-center"
+        }
+      ],
+      "qualifications": [
+        "Identity of six already assigned FNA category codes only. All mean/range values observed from outputs remain outside executed primary-publisher numeric scope.",
+        "Publisher full primary Table2",
+        "Original third-edition atlas",
+        "Individual ROM or pediatric ROM",
+        "Management and AUS subtype administration",
+        "A technical pass is limited to the listed public raw fields. Patient examination, diagnosis, eligibility, rubric administration, prognosis, outcome, management, professional/official translation, rights and full-method conformance remain not-performed.",
+        "Four selected-code/class mapping tools are not validated as clinical raters by code-identity tests. Brown and TG18 require preaffirmed findings/diagnosis; the calculator does not establish them.",
+        "Bethesda risk means/ranges and all private clinical/mortality/recurrence outputs are excluded, even if observed in the donor report.",
+        "Three fresh Node/VM raw-only adapter replays plus original isolated Chromium observations; no fresh served UI or deployment binding.",
+        "Source28/29 and documentary-source30 recipes are separately owned; compose per ID and recalculate totals without stale whole-catalog replacement."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Bethesda tireoide 2023, 3ª edição: 6 categorias, ROM e AUS nuclear/outras; verificação documental limitada ao código da categoria selecionada",
+    "implementationVersion": "sistema-de-bethesda-tireoide@native-2026-10-03+58d738d44e59",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Seis categorias diagnósticas, cada uma com um risco de malignidade (ROM) médio e uma faixa esperada, atualizados na 3ª edição (2023), que passou a usar um nome único por categoria e dividiu a AUS em dois subgrupos (atipia nuclear e outras).",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "cat",
+            "label": "Categoria do laudo",
+            "type": "sel",
+            "optional": false,
+            "options": {
+              "1": "I · Não diagnóstica",
+              "2": "II · Benigna",
+              "3": "III · Atipia de significado indeterminado (AUS)",
+              "4": "IV · Neoplasia folicular",
+              "5": "V · Suspeita de malignidade",
+              "6": "VI · Maligna"
+            }
+          }
+        ],
+        "hash": "b6d3273d17a8b481e9a01878564cb95affdde575afdd31e7333dd212411a2e50"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Ali SZ et al. The 2023 Bethesda System for Reporting Thyroid Cytopathology. Thyroid, 2023.",
+          "url": "https://doi.org/10.1089/thy.2023.0141",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The 2023 Bethesda System for Reporting Thyroid Cytopathology.",
+            "year": "2023",
+            "firstPublicationDate": "2023-07-08",
+            "doi": "10.1089/thy.2023.0141",
+            "pmid": "37427847",
+            "journal": "Thyroid : official journal of the American Thyroid Association",
+            "authors": "Ali SZ, Baloch ZW, Cochand-Priollet B, Schmitt FC, Vielh P, VanderLaan PA."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "77682ac70fb5809ab6150ab475b0037612646d4b2f72a01a22be8cedc2a7b054",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T20:53:44.621Z",
+        "total": 6,
+        "passed": 6,
+        "sourceRowCount": 6,
+        "uniqueApiInputCount": 6,
+        "sourceContextCount": 6,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "scope": "Identity of six already assigned FNA category codes only. All mean/range values observed from outputs remain outside executed primary-publisher numeric scope.",
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "75c9ed0942d35f4d181cb3707cdc08c8ec1629b4f6a93e223111b190ea674a09",
+          "total": 6,
+          "bankRowCount": 6,
+          "uniqueApiInputCount": 6,
+          "sourceContextCount": 6,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/six-primary-independent-expectations-final30.json",
+              "sha256": "7767013002c928ad8b35fabfec35fa3edde886d78f8152cfb3624a112e1732a6"
+            },
+            {
+              "file": "reports/review-20261003/six-primary-source-review-final30.json",
+              "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+            "sha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0"
+          },
+          "packagingRequirement": "All bounded raw-only rows byte exact, original202 expectations and separate1178-peer witness receipt preserved"
+        },
+        "sources": [
+          {
+            "review": {
+              "file": "reports/review-20261003/six-primary-source-review-final30.json",
+              "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+            },
+            "item": {
+              "id": "sistema-de-bethesda-tireoide",
+              "sourceIds": [
+                "bethesda2023-publisher-abstract",
+                "bethesda2023-original-reproduction"
+              ],
+              "executedScope": "Identity of six already assigned FNA category codes only. All mean/range values observed from outputs remain outside executed primary-publisher numeric scope.",
+              "inputPopulation": "Thyroid FNA cytopathology category from a laboratory report. Adult default risks cannot automatically be applied to pediatric patients.",
+              "sourceSupportedLimits": "ROM estimates are edition/population-dependent and subject to surgery-selection bias.2023 has distinct pediatric discussion; category selection is not a cytopathologic diagnosis.",
+              "findings": [
+                {
+                  "kind": "source-internal-range-difference",
+                  "confirmed": true,
+                  "issue": "AUS body range20–32 differs from Table2 range13–30 in the original reproduced article; publisher full table was inaccessible.",
+                  "implementation": "Current adult mean22 and range13–30 correspond to the reproduced Table2, without upgrading that observation to individual risk validation."
+                }
+              ],
+              "unchecked": [
+                "Publisher full primary Table2",
+                "Original third-edition atlas",
+                "Individual ROM or pediatric ROM",
+                "Management and AUS subtype administration"
+              ],
+              "current": {
+                "id": "sistema-de-bethesda-tireoide",
+                "recordSha256": "643ac098b3766de734761b50b8aaf25071dec0da1d722a6417bdd0638ca621fe",
+                "frozenRecordFile": "reports/review-20261003/six-primary-frozen-inputs-final30/selected-records/sistema-de-bethesda-tireoide.json",
+                "frozenRecordSha256": "772820c36d59312d3b17fa31b304e5cbeaa5320fe042a98cc9195bc5ba4c0be5",
+                "methodVersion": "Bethesda Thyroid 2023 3ªedição:6 categorias, ROM e AUS nuclear/other",
+                "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
+                "adapters": [
+                  {
+                    "file": "apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                    "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+                    "bytes": 5336,
+                    "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                    "currentSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+                  },
+                  {
+                    "file": "apps/dashboard/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                    "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+                    "bytes": 5336,
+                    "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/dashboard/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                    "currentSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+                  },
+                  {
+                    "file": "apps/command-center/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                    "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+                    "bytes": 5336,
+                    "frozenFile": "reports/review-20261003/six-primary-frozen-inputs-final30/apps/command-center/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+                    "currentSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+                  }
+                ]
+              },
+              "clinicalApproval": "not-performed",
+              "professionalLanguageApproval": "not-performed",
+              "rightsApproval": "not-performed",
+              "fullMethodConformance": "not-performed"
+            },
+            "sources": [
+              {
+                "id": "bethesda2023-publisher-abstract",
+                "url": "https://journals.sagepub.com/doi/abs/10.1089/thy.2023.0141",
+                "doi": "10.1089/thy.2023.0141",
+                "edition": "Ali et al., Thyroid2023;33:1039–1044, third edition",
+                "access": "Original publisher abstract directly read; publisher PDF403",
+                "readScope": "Six single category names, nuclear/other AUS subtypes and edition changes. Original atlas and full primary-publisher table not obtained.",
+                "tableRead": false,
+                "visualPdfRead": false
+              },
+              {
+                "id": "bethesda2023-original-reproduction",
+                "url": "https://www.slideshare.net/slideshow/ali-et-al-2023-the-2023-bethesda-system-for-reporting-thyroid-cytopathology-pdf/268973517",
+                "edition": "Third-party reproduction of original Ali2023 six-page article, not the uploader AI description",
+                "access": "Original page-image alternative text/table transcription directly read; captured original page3 image is320px wide, personally viewed with insufficient resolution for comprehensive numeric visual confirmation",
+                "document": {
+                  "file": "six-primary-documents-final30/bethesda-original-reproduction.html",
+                  "bytes": 1363839,
+                  "sha256": "9f813fbecae9fd22f69dabb09acd36d0af3eedb54e94ed0bc188536e2b19e2ff"
+                },
+                "renderedPages": [
+                  {
+                    "file": "six-primary-documents-final30/bethesda-reproduced-original-p3.jpg",
+                    "bytes": 28010,
+                    "sha256": "d61adb98a44a30b26490cf6c6262b1a3c57c05de2189985710086171119ad896"
+                  }
+                ],
+                "readScope": "Table1 printed1040 names; Table2 printed1041 adult mean/ranges and surgical-selection-bias footnotes; body printed1042 and pediatric Table3. Only the category identities enter the executed source scope. Adult ROM transcription is retained as unexecuted evidence.",
+                "tableRead": "original reproduction text; low-resolution image limitation",
+                "visualPdfRead": false,
+                "internalDifference": "Adult AUS range is13–30 in Table2 and20–32 in the body paragraph; mean22 is common. No silent adjudication or individual ROM approval.",
+                "excluded": "No primary-publisher full table confirmation, pediatric risk extrapolation, histologic diagnosis or management approval"
+              }
+            ]
+          }
+        ],
+        "evidencePath": "reports/review-20261003/six-primary-independent-source-check-final30-r2.json",
+        "evidenceSha256": "e7df66479da6c2009d95bf5749234856ca16a6f41c5b60c231feab37dd7669c0",
+        "independentPeer": {
+          "status": "passed",
+          "file": "reports/review-20261003/six-source30-independent-peer-verify.json",
+          "sha256": "8363a3375f1cb04def35d9225a8df412654c0c235aeb149db94e73aaecdf2da3",
+          "scope": "Independent selected source expectations202 and additional1178 own witnesses; primary access limitations and clinical/rubric exclusions remain explicit.",
+          "sourcePeerInputCount": 1178,
+          "packagingPeer": "pending",
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+            "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+            "app": "website"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+            "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+            "app": "dashboard"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+            "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+            "app": "command-center"
+          }
+        ],
+        "qualifications": [
+          "Identity of six already assigned FNA category codes only. All mean/range values observed from outputs remain outside executed primary-publisher numeric scope.",
+          "Publisher full primary Table2",
+          "Original third-edition atlas",
+          "Individual ROM or pediatric ROM",
+          "Management and AUS subtype administration",
+          "A technical pass is limited to the listed public raw fields. Patient examination, diagnosis, eligibility, rubric administration, prognosis, outcome, management, professional/official translation, rights and full-method conformance remain not-performed.",
+          "Four selected-code/class mapping tools are not validated as clinical raters by code-identity tests. Brown and TG18 require preaffirmed findings/diagnosis; the calculator does not establish them.",
+          "Bethesda risk means/ranges and all private clinical/mortality/recurrence outputs are excluded, even if observed in the donor report.",
+          "Three fresh Node/VM raw-only adapter replays plus original isolated Chromium observations; no fresh served UI or deployment binding.",
+          "Source28/29 and documentary-source30 recipes are separately owned; compose per ID and recalculate totals without stale whole-catalog replacement."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+      "source30DocumentaryAmendment": {
+        "at": "2026-10-04T20:48:15.780Z",
+        "scope": "Targeted documentary source/edition clarification only. No engine, field, option code, arithmetic bank, historical fixture, clinical decision or approval mutation.",
+        "sourceReview": {
+          "file": "six-primary-source-review-final30.json",
+          "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+        },
+        "sourcePeer": {
+          "file": "six-source30-independent-peer-verify.json",
+          "sha256": "8363a3375f1cb04def35d9225a8df412654c0c235aeb149db94e73aaecdf2da3",
+          "scope": "Independent bounded primary/classification review; not clinical/rubric/rights approval"
+        },
+        "sourceIds": [
+          "bethesda2023-publisher-abstract",
+          "bethesda2023-original-reproduction"
+        ],
+        "previousMethodVersion": "Bethesda Thyroid 2023 3ªedição:6 categorias, ROM e AUS nuclear/other",
+        "previousLimits": "A categoria Bethesda deve vir de laudo citopatológico de PAAF de tireoide, não ser atribuída pela calculadora. Risco médio e intervalo são estimativas da edição, não diagnóstico individual. A edição 2023 discute riscos e manejo pediátricos próprios; valores adultos não devem ser extrapolados automaticamente a crianças.",
+        "previousFormula": "<p>Seis categorias diagnósticas, cada uma com um risco de malignidade (ROM) médio e uma faixa esperada, atualizados na 3ª edição (2023), que passou a usar um nome único por categoria e dividiu a AUS em dois subgrupos (atipia nuclear e outras).</p>",
+        "previousCurrentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
+        "previousSourceLimitEvidence": {
+          "checkedAt": "2026-10-04T02:52:03.140Z",
+          "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+          "sourceReviewFile": "remaining-native-population-limits-review.json",
+          "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+          "readingOutcome": "review-outcome-recorded",
+          "unresolved": [
+            "Resumo não fornece riscos numéricos nem algoritmo por idade. Não confirma que números adultos locais possam ser usados em crianças."
+          ],
+          "fullMethodConformanceReviewed": false,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed"
+        },
+        "sourceAccess": [
+          {
+            "id": "bethesda2023-publisher-abstract",
+            "url": "https://journals.sagepub.com/doi/abs/10.1089/thy.2023.0141",
+            "edition": "Ali et al., Thyroid2023;33:1039–1044, third edition",
+            "access": "Original publisher abstract directly read; publisher PDF403",
+            "readScope": "Six single category names, nuclear/other AUS subtypes and edition changes. Original atlas and full primary-publisher table not obtained.",
+            "tableRead": false,
+            "visualPdfRead": false
+          },
+          {
+            "id": "bethesda2023-original-reproduction",
+            "url": "https://www.slideshare.net/slideshow/ali-et-al-2023-the-2023-bethesda-system-for-reporting-thyroid-cytopathology-pdf/268973517",
+            "edition": "Third-party reproduction of original Ali2023 six-page article, not the uploader AI description",
+            "access": "Original page-image alternative text/table transcription directly read; captured original page3 image is320px wide, personally viewed with insufficient resolution for comprehensive numeric visual confirmation",
+            "readScope": "Table1 printed1040 names; Table2 printed1041 adult mean/ranges and surgical-selection-bias footnotes; body printed1042 and pediatric Table3. Only the category identities enter the executed source scope. Adult ROM transcription is retained as unexecuted evidence.",
+            "tableRead": "original reproduction text; low-resolution image limitation",
+            "visualPdfRead": false
+          }
+        ],
+        "sourceScopedTest": "Selected category identity only; ROM mean/range, pediatric risks and management excluded.",
+        "fieldsUnchanged": true,
+        "casesUnchanged": true,
+        "engineUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "rightsApproval": "not-performed",
+        "releaseApproval": "not-performed",
+        "fullMethodConformance": false
+      }
+    },
+    "limits": "A categoria Bethesda deve vir de laudo citopatológico de PAAF de tireoide, não ser atribuída pela calculadora. Risco médio e intervalo são estimativas da edição, não diagnóstico individual. A edição 2023 discute riscos e manejo pediátricos próprios; valores adultos não devem ser extrapolados automaticamente a crianças. Nesta verificação, o acesso direto ao artigo de 2023 forneceu apenas o resumo editorial; a tabela de ROM foi consultada em uma reprodução de terceiros do artigo original, com imagem de baixa resolução. A Tabela 2 reproduzida indica AUS com faixa de 13–30%, enquanto o texto do mesmo artigo indica 20–32%. Essas faixas não foram adjudicadas. O teste verifica somente o código da categoria selecionada; ROM adulto, ROM pediátrico e manejo não foram validados nesta verificação.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.140Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Tabela editorial integral de ROM e atlas não foram obtidos; a reprodução original diverge entre a Tabela2 e o corpo na faixa de AUS. Nenhuma adjudicação ou validação de ROM individual, pediátrico ou manejo foi realizada."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "source30DocumentaryAmendment": {
+        "at": "2026-10-04T20:48:15.780Z",
+        "scope": "Targeted documentary source/edition clarification only. No engine, field, option code, arithmetic bank, historical fixture, clinical decision or approval mutation.",
+        "sourceReview": {
+          "file": "six-primary-source-review-final30.json",
+          "sha256": "5f7d509b86d3456384f80df57b876433dd673581cf753397b6bfd3c27406fa1a"
+        },
+        "sourcePeer": {
+          "file": "six-source30-independent-peer-verify.json",
+          "sha256": "8363a3375f1cb04def35d9225a8df412654c0c235aeb149db94e73aaecdf2da3",
+          "scope": "Independent bounded primary/classification review; not clinical/rubric/rights approval"
+        },
+        "sourceIds": [
+          "bethesda2023-publisher-abstract",
+          "bethesda2023-original-reproduction"
+        ],
+        "previousMethodVersion": "Bethesda Thyroid 2023 3ªedição:6 categorias, ROM e AUS nuclear/other",
+        "previousLimits": "A categoria Bethesda deve vir de laudo citopatológico de PAAF de tireoide, não ser atribuída pela calculadora. Risco médio e intervalo são estimativas da edição, não diagnóstico individual. A edição 2023 discute riscos e manejo pediátricos próprios; valores adultos não devem ser extrapolados automaticamente a crianças.",
+        "previousFormula": "<p>Seis categorias diagnósticas, cada uma com um risco de malignidade (ROM) médio e uma faixa esperada, atualizados na 3ª edição (2023), que passou a usar um nome único por categoria e dividiu a AUS em dois subgrupos (atipia nuclear e outras).</p>",
+        "previousCurrentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
+        "previousSourceLimitEvidence": {
+          "checkedAt": "2026-10-04T02:52:03.140Z",
+          "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+          "sourceReviewFile": "remaining-native-population-limits-review.json",
+          "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+          "readingOutcome": "review-outcome-recorded",
+          "unresolved": [
+            "Resumo não fornece riscos numéricos nem algoritmo por idade. Não confirma que números adultos locais possam ser usados em crianças."
+          ],
+          "fullMethodConformanceReviewed": false,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed"
+        },
+        "sourceAccess": [
+          {
+            "id": "bethesda2023-publisher-abstract",
+            "url": "https://journals.sagepub.com/doi/abs/10.1089/thy.2023.0141",
+            "edition": "Ali et al., Thyroid2023;33:1039–1044, third edition",
+            "access": "Original publisher abstract directly read; publisher PDF403",
+            "readScope": "Six single category names, nuclear/other AUS subtypes and edition changes. Original atlas and full primary-publisher table not obtained.",
+            "tableRead": false,
+            "visualPdfRead": false
+          },
+          {
+            "id": "bethesda2023-original-reproduction",
+            "url": "https://www.slideshare.net/slideshow/ali-et-al-2023-the-2023-bethesda-system-for-reporting-thyroid-cytopathology-pdf/268973517",
+            "edition": "Third-party reproduction of original Ali2023 six-page article, not the uploader AI description",
+            "access": "Original page-image alternative text/table transcription directly read; captured original page3 image is320px wide, personally viewed with insufficient resolution for comprehensive numeric visual confirmation",
+            "readScope": "Table1 printed1040 names; Table2 printed1041 adult mean/ranges and surgical-selection-bias footnotes; body printed1042 and pediatric Table3. Only the category identities enter the executed source scope. Adult ROM transcription is retained as unexecuted evidence.",
+            "tableRead": "original reproduction text; low-resolution image limitation",
+            "visualPdfRead": false
+          }
+        ],
+        "sourceScopedTest": "Selected category identity only; ROM mean/range, pediatric risks and management excluded.",
+        "fieldsUnchanged": true,
+        "casesUnchanged": true,
+        "engineUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "rightsApproval": "not-performed",
+        "releaseApproval": "not-performed",
+        "fullMethodConformance": false
+      }
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+    "bytes": 5336,
+    "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "9926aada2373a3e603810c38bc255faa3b7bdaa54da222d458a6bac9f2079b79",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "28b2419d537adae28c86e38561bc068872254203fd4e066f236142484cb2fc15",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "28b2419d537adae28c86e38561bc068872254203fd4e066f236142484cb2fc15",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

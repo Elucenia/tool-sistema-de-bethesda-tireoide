@@ -1,6 +1,12 @@
 [
   {
-    "label": "Categoria II (benigna): risco de 4%",
+    "id": "sistema-de-bethesda-tireoide",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "Categoria II (benigna): risco de 4%",
+    "originalInput": {
+      "cat": "2"
+    },
     "input": {
       "cat": "2"
     },
@@ -11,13 +17,34 @@
       },
       "level": "low"
     },
-    "originalInput": {
-      "cat": "2"
+    "recordedResult": {
+      "main": [
+        "II",
+        ""
+      ],
+      "label": "Categoria de Bethesda (2023)",
+      "raw": {
+        "cat": 2,
+        "rom": 4
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Categoria III (AUS): risco de 22%",
+    "id": "sistema-de-bethesda-tireoide",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "Categoria III (AUS): risco de 22%",
+    "originalInput": {
+      "cat": "3"
+    },
     "input": {
       "cat": "3"
     },
@@ -27,13 +54,34 @@
       },
       "level": "mid"
     },
-    "originalInput": {
-      "cat": "3"
+    "recordedResult": {
+      "main": [
+        "III",
+        ""
+      ],
+      "label": "Categoria de Bethesda (2023)",
+      "raw": {
+        "cat": 3,
+        "rom": 22
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Categoria V (suspeita): risco de 74%",
+    "id": "sistema-de-bethesda-tireoide",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "Categoria V (suspeita): risco de 74%",
+    "originalInput": {
+      "cat": "5"
+    },
     "input": {
       "cat": "5"
     },
@@ -43,13 +91,34 @@
       },
       "level": "high"
     },
-    "originalInput": {
-      "cat": "5"
+    "recordedResult": {
+      "main": [
+        "V",
+        ""
+      ],
+      "label": "Categoria de Bethesda (2023)",
+      "raw": {
+        "cat": 5,
+        "rom": 74
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "Categoria I (não diagnóstica): repetir a punção",
+    "id": "sistema-de-bethesda-tireoide",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "Categoria I (não diagnóstica): repetir a punção",
+    "originalInput": {
+      "cat": "1"
+    },
     "input": {
       "cat": "1"
     },
@@ -60,9 +129,24 @@
       "level": "mid",
       "verdict": "não diagnóstica"
     },
-    "originalInput": {
-      "cat": "1"
+    "recordedResult": {
+      "main": [
+        "I",
+        ""
+      ],
+      "label": "Categoria de Bethesda (2023)",
+      "raw": {
+        "cat": 1,
+        "rom": 13
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
