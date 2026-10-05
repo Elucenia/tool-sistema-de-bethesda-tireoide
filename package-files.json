@@ -1,9 +1,29 @@
 {
   "id": "sistema-de-bethesda-tireoide",
-  "scope": "Deterministic source/package integrity checks; no mutable output or report overwrite",
+  "scope": "Exclusive report-owned R6-HTTP-linked candidate, read-only default test",
   "files": [
     {
-      "path": "engine/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+      "path": ".gitattributes",
+      "bytes": 19,
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 279,
+      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 42,
+      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
+    },
+    {
+      "path": "AUTHORSHIP.md",
+      "bytes": 3377,
+      "sha256": "b9a8ec21d6ae25aa7de5eb3981b07e160a259e666f0fd363e5d953c334ab5971"
+    },
+    {
+      "path": "calculator.browser.js",
       "bytes": 5336,
       "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
     },
@@ -13,54 +33,14 @@
       "sha256": "9583c9e867068b310ecce45a0d91ae552b2b75a596f7acee542bcdd017d8d55d"
     },
     {
-      "path": "calculator.browser.js",
-      "bytes": 5336,
-      "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
-    },
-    {
-      "path": "index.html",
-      "bytes": 1886,
-      "sha256": "fc6753c6d358b2297986c76cf3895909f29f782d895ad03dcfdd4bc2595d77d6"
-    },
-    {
-      "path": "portal-formatters.browser.js",
-      "bytes": 31300,
-      "sha256": "d8522ffe0b858012dfd25e5e8d10fe2eefec977f2bdb612be5cbadf5c4bed9f3"
-    },
-    {
-      "path": "demo-runtime.js",
-      "bytes": 11656,
-      "sha256": "734da1ceff19b961423e1bb5d2c9eaafd18920b32cc4f331856f6065c9cfd2c9"
-    },
-    {
-      "path": "package.json",
-      "bytes": 399,
-      "sha256": "9ecdf038f45a8e62b7f660eb11833348f8f1a02a4d9cc79868275e4f37457174"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-    },
-    {
-      "path": "NOTICE",
-      "bytes": 1683,
-      "sha256": "015f3f385772341b29752dbb7774c0125fb226370bb2763a2e8b56b4b45e7a9a"
-    },
-    {
-      "path": "AUTHORSHIP.md",
-      "bytes": 3377,
-      "sha256": "b9a8ec21d6ae25aa7de5eb3981b07e160a259e666f0fd363e5d953c334ab5971"
-    },
-    {
       "path": "CITATION.cff",
       "bytes": 981,
       "sha256": "7a48f18701eb40ba3506e0d5917e4a94d7b1ada785485a4ef49c563f7262a06e"
     },
     {
-      "path": "SECURITY.md",
-      "bytes": 894,
-      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
+      "path": "CODE-COMPONENTS.md",
+      "bytes": 1121,
+      "sha256": "e0533a45c8d2bec2d60544edb5d9bb7708751ca375c9c4d832f8554c20742a0f"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -68,39 +48,19 @@
       "sha256": "2d98844d3ebeaa540bdd70fd68eb538ee2a8eb4ef6669d3de50a81c602631156"
     },
     {
-      "path": ".github/workflows/ci.yml",
-      "bytes": 279,
-      "sha256": "bdbefea1fc6b1d8847725c698f62920917bc8d6504bfe8ed622ed2d5aaf7f160"
+      "path": "demo-runtime.js",
+      "bytes": 11656,
+      "sha256": "734da1ceff19b961423e1bb5d2c9eaafd18920b32cc4f331856f6065c9cfd2c9"
     },
     {
-      "path": ".gitattributes",
-      "bytes": 19,
-      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+      "path": "documentation/ar.md",
+      "bytes": 4484,
+      "sha256": "0b40bb0fc76c1880001f7e945a997037a46983734a93fed9f76746fbf10123a0"
     },
     {
-      "path": ".gitignore",
-      "bytes": 42,
-      "sha256": "763fb702ccbb9bfd8549ca3d0844c731b22aca4e665a2b61d1bb764b64f734d8"
-    },
-    {
-      "path": "METHOD-CODE-LICENSE.txt",
-      "bytes": 1229,
-      "sha256": "51c010d285894558695812b9883d9c9ae7c9c89526f43597917e778965e65d93"
-    },
-    {
-      "path": "METHOD-CODE-NOTICE.md",
-      "bytes": 1183,
-      "sha256": "b7d5eaa1074d1673caf885ac49b38e9b54b2c6086b45072eacf7b3fe139d8a6d"
-    },
-    {
-      "path": "localization.js",
-      "bytes": 45103,
-      "sha256": "e960e71b7486b4475af7810d50686b93131058064a70851284ecfbde848781de"
-    },
-    {
-      "path": "documentation/pt-BR.md",
-      "bytes": 3460,
-      "sha256": "42214291a27c54b8e52f0a7d297b38ea9cc809efbc2478c19978278aa1d12edd"
+      "path": "documentation/de.md",
+      "bytes": 3750,
+      "sha256": "0f5506573bf438644d4104e79a2f00986b6bd24bc406af72bb7b5286190ddc2a"
     },
     {
       "path": "documentation/en.md",
@@ -118,9 +78,9 @@
       "sha256": "d802da52713706f7ae812fb85f63943782fe1e17548ce66226822e34a149989b"
     },
     {
-      "path": "documentation/de.md",
-      "bytes": 3750,
-      "sha256": "0f5506573bf438644d4104e79a2f00986b6bd24bc406af72bb7b5286190ddc2a"
+      "path": "documentation/hi.md",
+      "bytes": 6621,
+      "sha256": "0a2f0afb9027de44a2cffd7fdefa9bf8f3984c994bc268506aeec4b6aa8a7383"
     },
     {
       "path": "documentation/it.md",
@@ -128,9 +88,14 @@
       "sha256": "2cac4c9a9c0059032dcdd3840cd3efa7113ded0c4ee292d31c20e0c5433ec20a"
     },
     {
-      "path": "documentation/ar.md",
-      "bytes": 4484,
-      "sha256": "0b40bb0fc76c1880001f7e945a997037a46983734a93fed9f76746fbf10123a0"
+      "path": "documentation/ja.md",
+      "bytes": 3659,
+      "sha256": "32f9dcaf216a076d12c5a1ab6e118cad5c5770252b5147708e991b5d2fa0e05b"
+    },
+    {
+      "path": "documentation/pt-BR.md",
+      "bytes": 3460,
+      "sha256": "42214291a27c54b8e52f0a7d297b38ea9cc809efbc2478c19978278aa1d12edd"
     },
     {
       "path": "documentation/zh.md",
@@ -138,39 +103,9 @@
       "sha256": "986c64f6045b7077a2b538c435640ff946b69cb3c0ad7596a35f1649cdebb72f"
     },
     {
-      "path": "documentation/ja.md",
-      "bytes": 3659,
-      "sha256": "32f9dcaf216a076d12c5a1ab6e118cad5c5770252b5147708e991b5d2fa0e05b"
-    },
-    {
-      "path": "documentation/hi.md",
-      "bytes": 6621,
-      "sha256": "0a2f0afb9027de44a2cffd7fdefa9bf8f3984c994bc268506aeec4b6aa8a7383"
-    },
-    {
-      "path": "examples.json",
-      "bytes": 3568,
-      "sha256": "e62cd6faa1eb25a5492baa07efa5f642976852de75351b686f600429adbc8740"
-    },
-    {
-      "path": "rejections.json",
-      "bytes": 1934,
-      "sha256": "b030307ff8c76793889eb195dbfe8d9943173b85aec29e1959221f2e43d24c7e"
-    },
-    {
-      "path": "test.cjs",
-      "bytes": 6880,
-      "sha256": "0ebb080e5fa3f36aa75beed21fdb1af69d97d93bd8ed8f0c63fe1dcdda77284a"
-    },
-    {
-      "path": "results.json",
-      "bytes": 10820,
-      "sha256": "6a3bc9bb07ece25cc58cd2b54d5557cb519dc5206faef87ad0144d8d3c1fb057"
-    },
-    {
-      "path": "tool.json",
-      "bytes": 41174,
-      "sha256": "de1864c9e430cc8f394b9120a294b3883b6d478ac19eaf0ad5644ec9f57c6158"
+      "path": "engine/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+      "bytes": 5336,
+      "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
     },
     {
       "path": "evidence/publication-base-reference.json",
@@ -178,9 +113,79 @@
       "sha256": "5727863589e9c1c1f371ac9a3992730247d553023be20524e5baf9abc5a3cedd"
     },
     {
-      "path": "CODE-COMPONENTS.md",
-      "bytes": 1121,
-      "sha256": "e0533a45c8d2bec2d60544edb5d9bb7708751ca375c9c4d832f8554c20742a0f"
+      "path": "evidence/served-http-r6.json",
+      "bytes": 26244,
+      "sha256": "e0a793c2b2329102a61a66f59074fbb6813281b216b3369163cab15ed2d198b3"
+    },
+    {
+      "path": "examples.json",
+      "bytes": 3568,
+      "sha256": "e62cd6faa1eb25a5492baa07efa5f642976852de75351b686f600429adbc8740"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1886,
+      "sha256": "fc6753c6d358b2297986c76cf3895909f29f782d895ad03dcfdd4bc2595d77d6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "localization.js",
+      "bytes": 45103,
+      "sha256": "e960e71b7486b4475af7810d50686b93131058064a70851284ecfbde848781de"
+    },
+    {
+      "path": "METHOD-CODE-LICENSE.txt",
+      "bytes": 1229,
+      "sha256": "51c010d285894558695812b9883d9c9ae7c9c89526f43597917e778965e65d93"
+    },
+    {
+      "path": "METHOD-CODE-NOTICE.md",
+      "bytes": 1183,
+      "sha256": "b7d5eaa1074d1673caf885ac49b38e9b54b2c6086b45072eacf7b3fe139d8a6d"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1683,
+      "sha256": "015f3f385772341b29752dbb7774c0125fb226370bb2763a2e8b56b4b45e7a9a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 399,
+      "sha256": "9ecdf038f45a8e62b7f660eb11833348f8f1a02a4d9cc79868275e4f37457174"
+    },
+    {
+      "path": "portal-formatters.browser.js",
+      "bytes": 31300,
+      "sha256": "d8522ffe0b858012dfd25e5e8d10fe2eefec977f2bdb612be5cbadf5c4bed9f3"
+    },
+    {
+      "path": "publication-provenance.json",
+      "bytes": 11900,
+      "sha256": "240e15cbf8ce7981575370157f399a54ed206d4b366c96ff6391e82829322cca"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3314,
+      "sha256": "05f67634616a05c9c292d9b9d23e543e4ce67b14394ed960cde9ed3dbd704110"
+    },
+    {
+      "path": "rejections.json",
+      "bytes": 1934,
+      "sha256": "b030307ff8c76793889eb195dbfe8d9943173b85aec29e1959221f2e43d24c7e"
+    },
+    {
+      "path": "results.json",
+      "bytes": 11581,
+      "sha256": "68601ce2a509544014baa38cc8dee1e8ace931e121e65c6f54d90c0db0c4510e"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 894,
+      "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
     },
     {
       "path": "SOURCE-RIGHTS-REVIEW.md",
@@ -188,14 +193,14 @@
       "sha256": "1d8ad91d34c5f8052be3ddd8687ad5e50b161b12fbfc3e1af12a11505e96e4a9"
     },
     {
-      "path": "publication-provenance.json",
-      "bytes": 10964,
-      "sha256": "db845f89801a65185837bbc06f9b762ee9cd6dbb5fecca733bdcdf65cb6f12cf"
+      "path": "test.cjs",
+      "bytes": 6880,
+      "sha256": "0ebb080e5fa3f36aa75beed21fdb1af69d97d93bd8ed8f0c63fe1dcdda77284a"
     },
     {
-      "path": "README.md",
-      "bytes": 3099,
-      "sha256": "9d2c5bedfd646ecd4da95e8b1741cefdaac7c63e3aeab6ca7b5add75b2546ea8"
+      "path": "tool.json",
+      "bytes": 41174,
+      "sha256": "de1864c9e430cc8f394b9120a294b3883b6d478ac19eaf0ad5644ec9f57c6158"
     }
   ]
 }

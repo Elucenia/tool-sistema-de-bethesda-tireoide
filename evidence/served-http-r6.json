@@ -1,0 +1,844 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "sistema-de-bethesda-tireoide",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
+    "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+    "bytes": 5336
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 4,
+    "replayed": 4,
+    "passed": 4,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "sistema-de-bethesda-tireoide",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "Categoria II (benigna): risco de 4%",
+      "originalInput": {
+        "cat": "2"
+      },
+      "input": {
+        "cat": "2"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "cat": 2,
+          "rom": 4
+        },
+        "level": "low"
+      },
+      "recordedResult": {
+        "main": [
+          "II",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 2,
+          "rom": 4
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "cat": "2"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+          "startedAt": "2026-10-05T17:39:43.672Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "sistema-de-bethesda-tireoide",
+              "main": [
+                "II",
+                ""
+              ],
+              "label": "Categoria de Bethesda (2023)",
+              "raw": {
+                "cat": 2,
+                "rom": 4
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "c7745fb99c5bd2130b4a7695afbf9d00057100055b262528694dd0985a0086c0",
+          "bytes": 165,
+          "elapsedMs": 4.032299999991665
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "startedAt": "2026-10-05T17:39:43.672Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "sistema-de-bethesda-tireoide",
+            "main": [
+              "II",
+              ""
+            ],
+            "label": "Categoria de Bethesda (2023)",
+            "raw": {
+              "cat": 2,
+              "rom": 4
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "c7745fb99c5bd2130b4a7695afbf9d00057100055b262528694dd0985a0086c0",
+        "bytes": 165,
+        "elapsedMs": 4.032299999991665
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.cat",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.rom",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": 2,
+            "obtained": 2,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.rom",
+            "expected": 4,
+            "obtained": 4,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "II",
+            "obtained": "II",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "sistema-de-bethesda-tireoide",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "Categoria III (AUS): risco de 22%",
+      "originalInput": {
+        "cat": "3"
+      },
+      "input": {
+        "cat": "3"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "rom": 22
+        },
+        "level": "mid"
+      },
+      "recordedResult": {
+        "main": [
+          "III",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 3,
+          "rom": 22
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "cat": "3"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+          "startedAt": "2026-10-05T17:39:43.985Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "sistema-de-bethesda-tireoide",
+              "main": [
+                "III",
+                ""
+              ],
+              "label": "Categoria de Bethesda (2023)",
+              "raw": {
+                "cat": 3,
+                "rom": 22
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "3b568698654f84bfeaf5b59c798948edd41df605dd1cd2be82c9100ad4a04ae9",
+          "bytes": 167,
+          "elapsedMs": 2.8401000000012573
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "startedAt": "2026-10-05T17:39:43.985Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "sistema-de-bethesda-tireoide",
+            "main": [
+              "III",
+              ""
+            ],
+            "label": "Categoria de Bethesda (2023)",
+            "raw": {
+              "cat": 3,
+              "rom": 22
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "3b568698654f84bfeaf5b59c798948edd41df605dd1cd2be82c9100ad4a04ae9",
+        "bytes": 167,
+        "elapsedMs": 2.8401000000012573
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.rom",
+            "expected": 22,
+            "obtained": 22,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": 3,
+            "obtained": 3,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.rom",
+            "expected": 22,
+            "obtained": 22,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "III",
+            "obtained": "III",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "sistema-de-bethesda-tireoide",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "Categoria V (suspeita): risco de 74%",
+      "originalInput": {
+        "cat": "5"
+      },
+      "input": {
+        "cat": "5"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "rom": 74
+        },
+        "level": "high"
+      },
+      "recordedResult": {
+        "main": [
+          "V",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 5,
+          "rom": 74
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "cat": "5"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+          "startedAt": "2026-10-05T17:39:44.298Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "sistema-de-bethesda-tireoide",
+              "main": [
+                "V",
+                ""
+              ],
+              "label": "Categoria de Bethesda (2023)",
+              "raw": {
+                "cat": 5,
+                "rom": 74
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "51901d415afc34f94ea49ada8ab5e6cff4c4c1b58f1f19a944084e37022ebb4c",
+          "bytes": 165,
+          "elapsedMs": 3.0173999999824446
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "startedAt": "2026-10-05T17:39:44.298Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "sistema-de-bethesda-tireoide",
+            "main": [
+              "V",
+              ""
+            ],
+            "label": "Categoria de Bethesda (2023)",
+            "raw": {
+              "cat": 5,
+              "rom": 74
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "51901d415afc34f94ea49ada8ab5e6cff4c4c1b58f1f19a944084e37022ebb4c",
+        "bytes": 165,
+        "elapsedMs": 3.0173999999824446
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.rom",
+            "expected": 74,
+            "obtained": 74,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": 5,
+            "obtained": 5,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.rom",
+            "expected": 74,
+            "obtained": 74,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "V",
+            "obtained": "V",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "sistema-de-bethesda-tireoide",
+      "kind": "native-source-reference",
+      "index": 3,
+      "name": "Categoria I (não diagnóstica): repetir a punção",
+      "originalInput": {
+        "cat": "1"
+      },
+      "input": {
+        "cat": "1"
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "rom": 13
+        },
+        "level": "mid",
+        "verdict": "não diagnóstica"
+      },
+      "recordedResult": {
+        "main": [
+          "I",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 1,
+          "rom": 13
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "cat": "1"
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+          "startedAt": "2026-10-05T17:39:44.608Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "sistema-de-bethesda-tireoide",
+              "main": [
+                "I",
+                ""
+              ],
+              "label": "Categoria de Bethesda (2023)",
+              "raw": {
+                "cat": 1,
+                "rom": 13
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "bc5cce01d0c977130d9323119e3f89b1b30868beae82d1793eed4ff78313e265",
+          "bytes": 165,
+          "elapsedMs": 3.2296000000205822
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/sistema-de-bethesda-tireoide/calculate",
+        "startedAt": "2026-10-05T17:39:44.608Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "sistema-de-bethesda-tireoide",
+            "main": [
+              "I",
+              ""
+            ],
+            "label": "Categoria de Bethesda (2023)",
+            "raw": {
+              "cat": 1,
+              "rom": 13
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "bc5cce01d0c977130d9323119e3f89b1b30868beae82d1793eed4ff78313e265",
+        "bytes": 165,
+        "elapsedMs": 3.2296000000205822
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.rom",
+            "expected": 13,
+            "obtained": 13,
+            "tolerance": 1e-8,
+            "difference": 0,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.cat",
+            "expected": 1,
+            "obtained": 1,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.rom",
+            "expected": 13,
+            "obtained": 13,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "I",
+            "obtained": "I",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "",
+            "obtained": "",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          },
+          {
+            "key": "verdict",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
