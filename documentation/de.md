@@ -62,3 +62,47 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Benigne: durchschnittliches Malignitätsrisiko von 4%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Erwarteter Risikobereich | 2 bis 7% |
+| Übliche Vorgehensweise (Erwachsene) | Klinische und sonografische Verlaufskontrolle |
+
+
+### 2
+
+Atypie unbestimmter Bedeutung (AUS): durchschnittliches Malignitätsrisiko von 22%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Erwarteter Risikobereich | 13 bis 30% |
+| Übliche Vorgehensweise (Erwachsene) | FNA wiederholen, molekulare Testung, diagnostische Lobektomie oder Überwachung |
+
+
+### 3
+
+Malignitätsverdächtig: durchschnittliches Malignitätsrisiko von 74%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Erwarteter Risikobereich | 67 bis 83% |
+| Übliche Vorgehensweise (Erwachsene) | Molekulare Testung, Lobektomie oder nahezu totale Thyreoidektomie |
+
+
+### 4
+
+Nicht diagnostisch: durchschnittliches Malignitätsrisiko von 13%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Erwarteter Risikobereich | 5 bis 20% |
+| Übliche Vorgehensweise (Erwachsene) | Ultraschallgesteuerte FNA wiederholen |
+

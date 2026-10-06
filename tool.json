@@ -282,7 +282,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Bethesda tireoide 2023, 3ª edição: 6 categorias, ROM e AUS nuclear/outras; verificação documental limitada ao código da categoria selecionada",
-    "implementationVersion": "sistema-de-bethesda-tireoide@native-2026-10-03+58d738d44e59",
+    "implementationVersion": "sistema-de-bethesda-tireoide@native-2026-10-05+fa28f358d7d9",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/37427847/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -523,7 +523,7 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+      "implementationHash": "fa28f358d7d927230961eda6f431b1a7d8986dbb85522e6897d0228ef59a3720",
       "source30DocumentaryAmendment": {
         "at": "2026-10-04T20:48:15.780Z",
         "scope": "Targeted documentary source/edition clarification only. No engine, field, option code, arithmetic bank, historical fixture, clinical decision or approval mutation.",
@@ -586,7 +586,35 @@
         "rightsApproval": "not-performed",
         "releaseApproval": "not-performed",
         "fullMethodConformance": false
-      }
+      },
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "sistema-de-bethesda-tireoide@native-2026-10-03+58d738d44e59",
+          "previousImplementationHash": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+          "implementationHash": "fa28f358d7d927230961eda6f431b1a7d8986dbb85522e6897d0228ef59a3720",
+          "scientificBodySha256": "f59f5ba953ce4e837a600e80fd6b3635df1ffa1dbef38603aabc1202ab50125e",
+          "metadataContractHash": "b6d3273d17a8b481e9a01878564cb95affdde575afdd31e7333dd212411a2e50",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "A categoria Bethesda deve vir de laudo citopatológico de PAAF de tireoide, não ser atribuída pela calculadora. Risco médio e intervalo são estimativas da edição, não diagnóstico individual. A edição 2023 discute riscos e manejo pediátricos próprios; valores adultos não devem ser extrapolados automaticamente a crianças. Nesta verificação, o acesso direto ao artigo de 2023 forneceu apenas o resumo editorial; a tabela de ROM foi consultada em uma reprodução de terceiros do artigo original, com imagem de baixa resolução. A Tabela 2 reproduzida indica AUS com faixa de 13–30%, enquanto o texto do mesmo artigo indica 20–32%. Essas faixas não foram adjudicadas. O teste verifica somente o código da categoria selecionada; ROM adulto, ROM pediátrico e manejo não foram validados nesta verificação.",
     "sourceLimitEvidence": {
@@ -668,20 +696,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/sistema-de-bethesda-tireoide/calculator.js",
-    "bytes": 5336,
-    "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+    "bytes": 5541,
+    "sha256": "fa28f358d7d927230961eda6f431b1a7d8986dbb85522e6897d0228ef59a3720"
   },
-  "sourceToolSha256": "9926aada2373a3e603810c38bc255faa3b7bdaa54da222d458a6bac9f2079b79",
+  "sourceToolSha256": "b2941533a9f72eadb2f5f6a9a4af2f1a47681d35f7182985f0fdddda1583ba2c",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "28b2419d537adae28c86e38561bc068872254203fd4e066f236142484cb2fc15",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "28b2419d537adae28c86e38561bc068872254203fd4e066f236142484cb2fc15",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

@@ -62,3 +62,47 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Benigno: rischio medio di malignità di 4%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Intervallo di rischio atteso | 2 a 7% |
+| Condotta abituale (adulti) | Follow-up clinico ed ecografico |
+
+
+### 2
+
+Atypia di significato indeterminato (AUS): rischio medio di malignità di 22%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Intervallo di rischio atteso | 13 a 30% |
+| Condotta abituale (adulti) | Ripetere la FNA, test molecolare, lobectomia diagnostica o sorveglianza |
+
+
+### 3
+
+Sospetto di malignità: rischio medio di malignità di 74%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Intervallo di rischio atteso | 67 a 83% |
+| Condotta abituale (adulti) | Test molecolare, lobectomia o tiroidectomia quasi totale |
+
+
+### 4
+
+Non diagnostico: rischio medio di malignità di 13%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Intervallo di rischio atteso | 5 a 20% |
+| Condotta abituale (adulti) | Ripetere la FNA guidata da ecografia |
+

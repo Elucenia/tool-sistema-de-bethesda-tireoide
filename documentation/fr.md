@@ -62,3 +62,47 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Bénin : risque moyen de malignité de 4%
+
+| Détails du résultat | |
+| --- | --- |
+| Plage de risque attendue | 2 à 7% |
+| Prise en charge habituelle (adultes) | Suivi clinique et échographique |
+
+
+### 2
+
+Atypie de signification indéterminée (AUS) : risque moyen de malignité de 22%
+
+| Détails du résultat | |
+| --- | --- |
+| Plage de risque attendue | 13 à 30% |
+| Prise en charge habituelle (adultes) | Répéter la FNA, test moléculaire, lobectomie diagnostique ou surveillance |
+
+
+### 3
+
+Suspect de malignité : risque moyen de malignité de 74%
+
+| Détails du résultat | |
+| --- | --- |
+| Plage de risque attendue | 67 à 83% |
+| Prise en charge habituelle (adultes) | Test moléculaire, lobectomie ou thyroïdectomie quasi totale |
+
+
+### 4
+
+Non diagnostique : risque moyen de malignité de 13%
+
+| Détails du résultat | |
+| --- | --- |
+| Plage de risque attendue | 5 à 20% |
+| Prise en charge habituelle (adultes) | Répéter la FNA guidée par échographie |
+

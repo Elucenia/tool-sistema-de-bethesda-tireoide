@@ -62,3 +62,47 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Benign: average risk of malignancy of 4%
+
+| Result details | |
+| --- | --- |
+| Expected risk range | 2 to 7% |
+| Usual management (adults) | Clinical and ultrasound follow-up |
+
+
+### 2
+
+Atypia of undetermined significance (AUS): average risk of malignancy of 22%
+
+| Result details | |
+| --- | --- |
+| Expected risk range | 13 to 30% |
+| Usual management (adults) | Repeat FNA, molecular testing, diagnostic lobectomy or surveillance |
+
+
+### 3
+
+Suspicious for malignancy: average risk of malignancy of 74%
+
+| Result details | |
+| --- | --- |
+| Expected risk range | 67 to 83% |
+| Usual management (adults) | Molecular testing, lobectomy or near-total thyroidectomy |
+
+
+### 4
+
+Non-diagnostic: average risk of malignancy of 13%
+
+| Result details | |
+| --- | --- |
+| Expected risk range | 5 to 20% |
+| Usual management (adults) | Repeat ultrasound-guided FNA |
+

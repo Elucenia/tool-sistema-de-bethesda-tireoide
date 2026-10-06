@@ -1,0 +1,1695 @@
+{
+  "id": "sistema-de-bethesda-tireoide",
+  "implementationVersion": "sistema-de-bethesda-tireoide@native-2026-10-05+fa28f358d7d9",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Faixa esperada de risco",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "2 a 7%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta usual (adultos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Seguimento clínico e ultrassonográfico",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Benigna: risco médio de malignidade de 4%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Faixa esperada de risco",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "13 a 30%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta usual (adultos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Repetir a PAAF, teste molecular, lobectomia diagnóstica ou vigilância",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atipia de significado indeterminado (AUS): risco médio de malignidade de 22%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Faixa esperada de risco",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "67 a 83%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta usual (adultos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Teste molecular, lobectomia ou tireoidectomia quase total",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Suspeita de malignidade: risco médio de malignidade de 74%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Faixa esperada de risco",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "5 a 20%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conduta usual (adultos)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "Repetir a PAAF guiada por ultrassom",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Não diagnóstica: risco médio de malignidade de 13%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Expected risk range",
+                "locale": "en",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 to 7%",
+                "locale": "en",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Usual management (adults)",
+                "locale": "en",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Clinical and ultrasound follow-up",
+                "locale": "en",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Benign: average risk of malignancy of 4%",
+            "locale": "en",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Expected risk range",
+                "locale": "en",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 to 30%",
+                "locale": "en",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Usual management (adults)",
+                "locale": "en",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Repeat FNA, molecular testing, diagnostic lobectomy or surveillance",
+                "locale": "en",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atypia of undetermined significance (AUS): average risk of malignancy of 22%",
+            "locale": "en",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Expected risk range",
+                "locale": "en",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 to 83%",
+                "locale": "en",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Usual management (adults)",
+                "locale": "en",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Molecular testing, lobectomy or near-total thyroidectomy",
+                "locale": "en",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Suspicious for malignancy: average risk of malignancy of 74%",
+            "locale": "en",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Expected risk range",
+                "locale": "en",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 to 20%",
+                "locale": "en",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Usual management (adults)",
+                "locale": "en",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Repeat ultrasound-guided FNA",
+                "locale": "en",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Non-diagnostic: average risk of malignancy of 13%",
+            "locale": "en",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervalo de riesgo esperado",
+                "locale": "es",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 a 7%",
+                "locale": "es",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta habitual (adultos)",
+                "locale": "es",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Seguimiento clínico y ecográfico",
+                "locale": "es",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Benigna: riesgo medio de malignidad de 4%",
+            "locale": "es",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervalo de riesgo esperado",
+                "locale": "es",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 a 30%",
+                "locale": "es",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta habitual (adultos)",
+                "locale": "es",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Repetir la PAAF, prueba molecular, lobectomía diagnóstica o vigilancia",
+                "locale": "es",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atipia de significado indeterminado (AUS): riesgo medio de malignidad de 22%",
+            "locale": "es",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervalo de riesgo esperado",
+                "locale": "es",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 a 83%",
+                "locale": "es",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta habitual (adultos)",
+                "locale": "es",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Prueba molecular, lobectomía o tiroidectomía casi total",
+                "locale": "es",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sospecha de malignidad: riesgo medio de malignidad de 74%",
+            "locale": "es",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervalo de riesgo esperado",
+                "locale": "es",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 a 20%",
+                "locale": "es",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Conducta habitual (adultos)",
+                "locale": "es",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Repetir la PAAF guiada por ecografía",
+                "locale": "es",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "No diagnóstica: riesgo medio de malignidad de 13%",
+            "locale": "es",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Plage de risque attendue",
+                "locale": "fr",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 à 7%",
+                "locale": "fr",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Prise en charge habituelle (adultes)",
+                "locale": "fr",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Suivi clinique et échographique",
+                "locale": "fr",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Bénin : risque moyen de malignité de 4%",
+            "locale": "fr",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Plage de risque attendue",
+                "locale": "fr",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 à 30%",
+                "locale": "fr",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Prise en charge habituelle (adultes)",
+                "locale": "fr",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Répéter la FNA, test moléculaire, lobectomie diagnostique ou surveillance",
+                "locale": "fr",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atypie de signification indéterminée (AUS) : risque moyen de malignité de 22%",
+            "locale": "fr",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Plage de risque attendue",
+                "locale": "fr",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 à 83%",
+                "locale": "fr",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Prise en charge habituelle (adultes)",
+                "locale": "fr",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Test moléculaire, lobectomie ou thyroïdectomie quasi totale",
+                "locale": "fr",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Suspect de malignité : risque moyen de malignité de 74%",
+            "locale": "fr",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Plage de risque attendue",
+                "locale": "fr",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 à 20%",
+                "locale": "fr",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Prise en charge habituelle (adultes)",
+                "locale": "fr",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Répéter la FNA guidée par échographie",
+                "locale": "fr",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Non diagnostique : risque moyen de malignité de 13%",
+            "locale": "fr",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Erwarteter Risikobereich",
+                "locale": "de",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 bis 7%",
+                "locale": "de",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Übliche Vorgehensweise (Erwachsene)",
+                "locale": "de",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Klinische und sonografische Verlaufskontrolle",
+                "locale": "de",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Benigne: durchschnittliches Malignitätsrisiko von 4%",
+            "locale": "de",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Erwarteter Risikobereich",
+                "locale": "de",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 bis 30%",
+                "locale": "de",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Übliche Vorgehensweise (Erwachsene)",
+                "locale": "de",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "FNA wiederholen, molekulare Testung, diagnostische Lobektomie oder Überwachung",
+                "locale": "de",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atypie unbestimmter Bedeutung (AUS): durchschnittliches Malignitätsrisiko von 22%",
+            "locale": "de",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Erwarteter Risikobereich",
+                "locale": "de",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 bis 83%",
+                "locale": "de",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Übliche Vorgehensweise (Erwachsene)",
+                "locale": "de",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Molekulare Testung, Lobektomie oder nahezu totale Thyreoidektomie",
+                "locale": "de",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Malignitätsverdächtig: durchschnittliches Malignitätsrisiko von 74%",
+            "locale": "de",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Erwarteter Risikobereich",
+                "locale": "de",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 bis 20%",
+                "locale": "de",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Übliche Vorgehensweise (Erwachsene)",
+                "locale": "de",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Ultraschallgesteuerte FNA wiederholen",
+                "locale": "de",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Nicht diagnostisch: durchschnittliches Malignitätsrisiko von 13%",
+            "locale": "de",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervallo di rischio atteso",
+                "locale": "it",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 a 7%",
+                "locale": "it",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta abituale (adulti)",
+                "locale": "it",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Follow-up clinico ed ecografico",
+                "locale": "it",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Benigno: rischio medio di malignità di 4%",
+            "locale": "it",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervallo di rischio atteso",
+                "locale": "it",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 a 30%",
+                "locale": "it",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta abituale (adulti)",
+                "locale": "it",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Ripetere la FNA, test molecolare, lobectomia diagnostica o sorveglianza",
+                "locale": "it",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Atypia di significato indeterminato (AUS): rischio medio di malignità di 22%",
+            "locale": "it",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervallo di rischio atteso",
+                "locale": "it",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 a 83%",
+                "locale": "it",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta abituale (adulti)",
+                "locale": "it",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Test molecolare, lobectomia o tiroidectomia quasi totale",
+                "locale": "it",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Sospetto di malignità: rischio medio di malignità di 74%",
+            "locale": "it",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Intervallo di rischio atteso",
+                "locale": "it",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 a 20%",
+                "locale": "it",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Condotta abituale (adulti)",
+                "locale": "it",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "Ripetere la FNA guidata da ecografia",
+                "locale": "it",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Non diagnostico: rischio medio di malignità di 13%",
+            "locale": "it",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "نطاق الخطر المتوقع",
+                "locale": "ar",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 إلى 7%",
+                "locale": "ar",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المعتاد (البالغون)",
+                "locale": "ar",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "المتابعة السريرية والتصويرية بالموجات فوق الصوتية",
+                "locale": "ar",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "حميد: متوسط خطر الخباثة يبلغ ٤%",
+            "locale": "ar",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "نطاق الخطر المتوقع",
+                "locale": "ar",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 إلى 30%",
+                "locale": "ar",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المعتاد (البالغون)",
+                "locale": "ar",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "إعادة الخزعة بالإبرة الرفيعة، أو الاختبار الجزيئي، أو استئصال فص تشخيصي، أو المراقبة",
+                "locale": "ar",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "اللانمطية غير محددة الأهمية (AUS): متوسط خطر الخباثة يبلغ ٢٢%",
+            "locale": "ar",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "نطاق الخطر المتوقع",
+                "locale": "ar",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 إلى 83%",
+                "locale": "ar",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المعتاد (البالغون)",
+                "locale": "ar",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "الاختبار الجزيئي، استئصال الفص، أو استئصال الدرق شبه الكلي",
+                "locale": "ar",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "مشتبه في الخباثة: متوسط خطر الخباثة يبلغ ٧٤%",
+            "locale": "ar",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "نطاق الخطر المتوقع",
+                "locale": "ar",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 إلى 20%",
+                "locale": "ar",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "التدبير المعتاد (البالغون)",
+                "locale": "ar",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "إعادة الخزعة بالإبرة الرفيعة الموجهة بالموجات فوق الصوتية",
+                "locale": "ar",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "غير تشخيصي: متوسط خطر الخباثة يبلغ ١٣%",
+            "locale": "ar",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "预期风险范围",
+                "locale": "zh",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 至 7%",
+                "locale": "zh",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "常规处理（成人）",
+                "locale": "zh",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "临床和超声随访",
+                "locale": "zh",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "良性：平均恶性风险为 4%",
+            "locale": "zh",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "预期风险范围",
+                "locale": "zh",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 至 30%",
+                "locale": "zh",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "常规处理（成人）",
+                "locale": "zh",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "重复细针穿刺抽吸（FNA）、分子检测、诊断性腺叶切除或监测",
+                "locale": "zh",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "意义不明确的非典型性（AUS）：平均恶性风险为 22%",
+            "locale": "zh",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "预期风险范围",
+                "locale": "zh",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 至 83%",
+                "locale": "zh",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "常规处理（成人）",
+                "locale": "zh",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "分子检测、腺叶切除或近全甲状腺切除",
+                "locale": "zh",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "恶性可疑：平均恶性风险为 74%",
+            "locale": "zh",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "预期风险范围",
+                "locale": "zh",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 至 20%",
+                "locale": "zh",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "常规处理（成人）",
+                "locale": "zh",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "重复超声引导下细针穿刺抽吸（FNA）",
+                "locale": "zh",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "非诊断性：平均恶性风险为 13%",
+            "locale": "zh",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "予想されるリスク範囲",
+                "locale": "ja",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 ～ 7%",
+                "locale": "ja",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "通常の対応（成人）",
+                "locale": "ja",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "臨床および超音波による経過観察",
+                "locale": "ja",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "良性：悪性の平均リスクは4%",
+            "locale": "ja",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "予想されるリスク範囲",
+                "locale": "ja",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 ～ 30%",
+                "locale": "ja",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "通常の対応（成人）",
+                "locale": "ja",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "FNAの再検、分子検査、診断的葉切除、または経過観察",
+                "locale": "ja",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "意義不明の異型（AUS）：悪性の平均リスクは22%",
+            "locale": "ja",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "予想されるリスク範囲",
+                "locale": "ja",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 ～ 83%",
+                "locale": "ja",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "通常の対応（成人）",
+                "locale": "ja",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "分子検査、葉切除、または亜全甲状腺切除",
+                "locale": "ja",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "悪性疑い：悪性の平均リスクは74%",
+            "locale": "ja",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "予想されるリスク範囲",
+                "locale": "ja",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 ～ 20%",
+                "locale": "ja",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "通常の対応（成人）",
+                "locale": "ja",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "超音波ガイド下FNAを再検",
+                "locale": "ja",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "非診断的：悪性の平均リスクは13%",
+            "locale": "ja",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "Categoria II (benigna): risco de 4%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अपेक्षित जोखिम सीमा",
+                "locale": "hi",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "2 से 7%",
+                "locale": "hi",
+                "template": "documented-authored-7b77af24cfaeb1d53dda"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सामान्य प्रबंधन (वयस्क)",
+                "locale": "hi",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "नैदानिक और अल्ट्रासाउंड अनुवर्ती",
+                "locale": "hi",
+                "template": "documented-authored-6b1bee72575dd19accc2"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "सौम्य: दुर्दमता का औसत जोखिम 4%",
+            "locale": "hi",
+            "template": "documented-authored-ce9d2a1470dc384d2452",
+            "sourceNumbers": [
+              4
+            ]
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "Categoria III (AUS): risco de 22%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अपेक्षित जोखिम सीमा",
+                "locale": "hi",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "13 से 30%",
+                "locale": "hi",
+                "template": "documented-authored-de0b493997ec9fe7e9d2"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सामान्य प्रबंधन (वयस्क)",
+                "locale": "hi",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "FNA दोहराएँ, आणविक परीक्षण, निदानात्मक लोबेक्टॉमी या निगरानी",
+                "locale": "hi",
+                "template": "documented-authored-8ffc19d63e0736a62539"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "अनिश्चित महत्व की एटिपिया (AUS): दुर्दमता का औसत जोखिम 22%",
+            "locale": "hi",
+            "template": "documented-authored-abba750c311a62415ed9",
+            "sourceNumbers": [
+              22
+            ]
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "Categoria V (suspeita): risco de 74%",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अपेक्षित जोखिम सीमा",
+                "locale": "hi",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "67 से 83%",
+                "locale": "hi",
+                "template": "documented-authored-1d6b7b5407710d9b166c"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सामान्य प्रबंधन (वयस्क)",
+                "locale": "hi",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "आणविक परीक्षण, लोबेक्टॉमी या लगभग पूर्ण थायरॉयडेक्टॉमी",
+                "locale": "hi",
+                "template": "documented-authored-c7fd601be2502b441059"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "दुर्दमता का संदेह: दुर्दमता का औसत जोखिम 74%",
+            "locale": "hi",
+            "template": "documented-authored-228e6f5257deb0f98255",
+            "sourceNumbers": [
+              74
+            ]
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "Categoria I (não diagnóstica): repetir a punção",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "अपेक्षित जोखिम सीमा",
+                "locale": "hi",
+                "template": "documented-authored-af62c10a00376b1f8c2e"
+              },
+              "value": {
+                "text": "5 से 20%",
+                "locale": "hi",
+                "template": "documented-authored-03227cfd54b7be7dfe41"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "सामान्य प्रबंधन (वयस्क)",
+                "locale": "hi",
+                "template": "documented-authored-2635ee2e6274b16b89fe"
+              },
+              "value": {
+                "text": "अल्ट्रासाउंड-निर्देशित FNA दोहराएँ",
+                "locale": "hi",
+                "template": "documented-authored-f06e3a75894a982908d4"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "निदानात्मक नहीं: दुर्दमता का औसत जोखिम 13%",
+            "locale": "hi",
+            "template": "documented-authored-dcf4977f4c4e17b07ea9",
+            "sourceNumbers": [
+              13
+            ]
+          },
+          "level": "mid"
+        }
+      }
+    ]
+  }
+}

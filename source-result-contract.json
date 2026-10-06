@@ -1,0 +1,266 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "sistema-de-bethesda-tireoide",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "5c592007e7c32c2ea3b1639c19714c9824567449",
+    "oldEngineSha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343",
+    "currentEngineSha256": "fa28f358d7d927230961eda6f431b1a7d8986dbb85522e6897d0228ef59a3720"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "Categoria II (benigna): risco de 4%",
+      "input": {
+        "cat": "2"
+      },
+      "publicOutput": {
+        "id": "sistema-de-bethesda-tireoide",
+        "main": [
+          "II",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 2,
+          "rom": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "cat": 2,
+          "rom": 4
+        },
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "II",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "level": "low",
+        "verdict": "Benigna: risco médio de malignidade de 4%",
+        "rows": [
+          [
+            "Faixa esperada de risco",
+            "2 a 7%"
+          ],
+          [
+            "Conduta usual (adultos)",
+            "Seguimento clínico e ultrassonográfico"
+          ]
+        ],
+        "raw": {
+          "cat": 2,
+          "rom": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "Categoria III (AUS): risco de 22%",
+      "input": {
+        "cat": "3"
+      },
+      "publicOutput": {
+        "id": "sistema-de-bethesda-tireoide",
+        "main": [
+          "III",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 3,
+          "rom": 22
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "rom": 22
+        },
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "III",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "level": "mid",
+        "verdict": "Atipia de significado indeterminado (AUS): risco médio de malignidade de 22%",
+        "rows": [
+          [
+            "Faixa esperada de risco",
+            "13 a 30%"
+          ],
+          [
+            "Conduta usual (adultos)",
+            "Repetir a PAAF, teste molecular, lobectomia diagnóstica ou vigilância"
+          ]
+        ],
+        "raw": {
+          "cat": 3,
+          "rom": 22
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "Categoria V (suspeita): risco de 74%",
+      "input": {
+        "cat": "5"
+      },
+      "publicOutput": {
+        "id": "sistema-de-bethesda-tireoide",
+        "main": [
+          "V",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 5,
+          "rom": 74
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "rom": 74
+        },
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "V",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "level": "high",
+        "verdict": "Suspeita de malignidade: risco médio de malignidade de 74%",
+        "rows": [
+          [
+            "Faixa esperada de risco",
+            "67 a 83%"
+          ],
+          [
+            "Conduta usual (adultos)",
+            "Teste molecular, lobectomia ou tireoidectomia quase total"
+          ]
+        ],
+        "raw": {
+          "cat": 5,
+          "rom": 74
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "Categoria I (não diagnóstica): repetir a punção",
+      "input": {
+        "cat": "1"
+      },
+      "publicOutput": {
+        "id": "sistema-de-bethesda-tireoide",
+        "main": [
+          "I",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "raw": {
+          "cat": 1,
+          "rom": 13
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "rom": 13
+        },
+        "level": "mid",
+        "verdict": "não diagnóstica"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "I",
+          ""
+        ],
+        "label": "Categoria de Bethesda (2023)",
+        "level": "mid",
+        "verdict": "Não diagnóstica: risco médio de malignidade de 13%",
+        "rows": [
+          [
+            "Faixa esperada de risco",
+            "5 a 20%"
+          ],
+          [
+            "Conduta usual (adultos)",
+            "Repetir a PAAF guiada por ultrassom"
+          ]
+        ],
+        "raw": {
+          "cat": 1,
+          "rom": 13
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows"
+      ]
+    }
+  ]
+}

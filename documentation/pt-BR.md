@@ -62,3 +62,47 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Benigna: risco médio de malignidade de 4%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Faixa esperada de risco | 2 a 7% |
+| Conduta usual (adultos) | Seguimento clínico e ultrassonográfico |
+
+
+### 2
+
+Atipia de significado indeterminado (AUS): risco médio de malignidade de 22%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Faixa esperada de risco | 13 a 30% |
+| Conduta usual (adultos) | Repetir a PAAF, teste molecular, lobectomia diagnóstica ou vigilância |
+
+
+### 3
+
+Suspeita de malignidade: risco médio de malignidade de 74%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Faixa esperada de risco | 67 a 83% |
+| Conduta usual (adultos) | Teste molecular, lobectomia ou tireoidectomia quase total |
+
+
+### 4
+
+Não diagnóstica: risco médio de malignidade de 13%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Faixa esperada de risco | 5 a 20% |
+| Conduta usual (adultos) | Repetir a PAAF guiada por ultrassom |
+

@@ -1,6 +1,6 @@
 {
   "id": "sistema-de-bethesda-tireoide",
-  "scope": "Exclusive report-owned R6-HTTP-linked candidate, read-only default test",
+  "scope": "Immutable package integrity; tests write no files",
   "files": [
     {
       "path": ".gitattributes",
@@ -24,8 +24,8 @@
     },
     {
       "path": "calculator.browser.js",
-      "bytes": 5336,
-      "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+      "bytes": 5541,
+      "sha256": "fa28f358d7d927230961eda6f431b1a7d8986dbb85522e6897d0228ef59a3720"
     },
     {
       "path": "calculator.js",
@@ -39,8 +39,8 @@
     },
     {
       "path": "CODE-COMPONENTS.md",
-      "bytes": 1121,
-      "sha256": "e0533a45c8d2bec2d60544edb5d9bb7708751ca375c9c4d832f8554c20742a0f"
+      "bytes": 1390,
+      "sha256": "da684de2096ed94518573ba65e4013c17fad3c6ef8b5d2ef936f65c9571d0871"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -49,68 +49,78 @@
     },
     {
       "path": "demo-runtime.js",
-      "bytes": 11656,
-      "sha256": "734da1ceff19b961423e1bb5d2c9eaafd18920b32cc4f331856f6065c9cfd2c9"
+      "bytes": 14286,
+      "sha256": "187cb0a3f2693707660f7fc69fc63ce5e30055a5ccdc621cc7945a0d3b1d2918"
     },
     {
       "path": "documentation/ar.md",
-      "bytes": 4484,
-      "sha256": "0b40bb0fc76c1880001f7e945a997037a46983734a93fed9f76746fbf10123a0"
+      "bytes": 6144,
+      "sha256": "3021a249385376091639694ddae26b7e730821d96b02d0e3a4b87e11684bb4f7"
     },
     {
       "path": "documentation/de.md",
-      "bytes": 3750,
-      "sha256": "0f5506573bf438644d4104e79a2f00986b6bd24bc406af72bb7b5286190ddc2a"
+      "bytes": 4948,
+      "sha256": "57f38fe9cc1f85a5f3d0c4c46a8ba3f0f2e0284637540824e2743bc13e38c4d6"
     },
     {
       "path": "documentation/en.md",
-      "bytes": 3251,
-      "sha256": "c9592cddfe14d199eebb9632b413a3e7a1f3ef8007db91e2bae610439c66a198"
+      "bytes": 4272,
+      "sha256": "3b708161353aa2ef6f199dfdb62facba41eac150705d2eb4f4eb5f5431e8c10e"
     },
     {
       "path": "documentation/es.md",
-      "bytes": 3643,
-      "sha256": "0b60bf011bba61d8d58333143fe70a974320739788ee24c7666679f7a73bc511"
+      "bytes": 4765,
+      "sha256": "5f0173256431c2110b1553c42dc05268499eeade3d15651f2df288c1588fefe1"
     },
     {
       "path": "documentation/fr.md",
-      "bytes": 3876,
-      "sha256": "d802da52713706f7ae812fb85f63943782fe1e17548ce66226822e34a149989b"
+      "bytes": 5056,
+      "sha256": "517c8347556895e4f993243fcae5913112217536625a1ea7b790b96df6060ef5"
     },
     {
       "path": "documentation/hi.md",
-      "bytes": 6621,
-      "sha256": "0a2f0afb9027de44a2cffd7fdefa9bf8f3984c994bc268506aeec4b6aa8a7383"
+      "bytes": 8763,
+      "sha256": "570071182777b1bcf8910a5c5f76b65b6a2d61d23ffb1f8acf1c0570c0ad9b9f"
     },
     {
       "path": "documentation/it.md",
-      "bytes": 3590,
-      "sha256": "2cac4c9a9c0059032dcdd3840cd3efa7113ded0c4ee292d31c20e0c5433ec20a"
+      "bytes": 4700,
+      "sha256": "b409885c7fe5775ade249a9febb1b3b456e62bb1e57745798ab2f7b08b6482f7"
     },
     {
       "path": "documentation/ja.md",
-      "bytes": 3659,
-      "sha256": "32f9dcaf216a076d12c5a1ab6e118cad5c5770252b5147708e991b5d2fa0e05b"
+      "bytes": 4755,
+      "sha256": "69ce4f291a10a8ba4fbb45681223052c2c9cdbd83fe22e39748b42a3f7e19664"
     },
     {
       "path": "documentation/pt-BR.md",
-      "bytes": 3460,
-      "sha256": "42214291a27c54b8e52f0a7d297b38ea9cc809efbc2478c19978278aa1d12edd"
+      "bytes": 4546,
+      "sha256": "07760cd7658ef382f3c4fa9c72eac19540f5aecc41ef2da8531ba121888d479f"
     },
     {
       "path": "documentation/zh.md",
-      "bytes": 2766,
-      "sha256": "986c64f6045b7077a2b538c435640ff946b69cb3c0ad7596a35f1649cdebb72f"
+      "bytes": 3704,
+      "sha256": "335b9da9d77095cba2e7fbf5feaa3bf7f5fe2e5781e4a7735b0b8030ded6e612"
+    },
+    {
+      "path": "documented-result-examples.json",
+      "bytes": 55818,
+      "sha256": "422bebb097a7b0553a579d9f32627be16351305b2707e9af190bb10338d497fd"
     },
     {
       "path": "engine/tool-code/sistema-de-bethesda-tireoide/calculator.js",
-      "bytes": 5336,
-      "sha256": "58d738d44e592c74b947e0194ce9bfb27d7a9d1d6f1be61160271b76b3d29343"
+      "bytes": 5541,
+      "sha256": "fa28f358d7d927230961eda6f431b1a7d8986dbb85522e6897d0228ef59a3720"
     },
     {
       "path": "evidence/publication-base-reference.json",
       "bytes": 2833,
       "sha256": "5727863589e9c1c1f371ac9a3992730247d553023be20524e5baf9abc5a3cedd"
+    },
+    {
+      "path": "evidence/publication-provenance-before-output-contract.json",
+      "bytes": 11900,
+      "sha256": "240e15cbf8ce7981575370157f399a54ed206d4b366c96ff6391e82829322cca"
     },
     {
       "path": "evidence/served-http-r6.json",
@@ -134,8 +144,8 @@
     },
     {
       "path": "localization.js",
-      "bytes": 45103,
-      "sha256": "e960e71b7486b4475af7810d50686b93131058064a70851284ecfbde848781de"
+      "bytes": 80894,
+      "sha256": "2285e629d644074b7e4f51b88c4c27bef5a223c2a852c3f2439fd41519c8b905"
     },
     {
       "path": "METHOD-CODE-LICENSE.txt",
@@ -154,23 +164,23 @@
     },
     {
       "path": "package.json",
-      "bytes": 399,
-      "sha256": "9ecdf038f45a8e62b7f660eb11833348f8f1a02a4d9cc79868275e4f37457174"
+      "bytes": 493,
+      "sha256": "ace6c6716fe539504b95cf85a13a991a71376e62b8e553680c1b9e3e85c72c15"
     },
     {
       "path": "portal-formatters.browser.js",
-      "bytes": 31300,
-      "sha256": "d8522ffe0b858012dfd25e5e8d10fe2eefec977f2bdb612be5cbadf5c4bed9f3"
+      "bytes": 38687,
+      "sha256": "cf0668f6fd44a80a3e4064915cf2da02d2203a9596bd39a9a0a6025fb12e17f4"
     },
     {
       "path": "publication-provenance.json",
-      "bytes": 11900,
-      "sha256": "240e15cbf8ce7981575370157f399a54ed206d4b366c96ff6391e82829322cca"
+      "bytes": 6475,
+      "sha256": "d3e948a70730f8d1461511837b32a2ad32bc6ad327566d0fd807b73445b9ecb2"
     },
     {
       "path": "README.md",
-      "bytes": 3314,
-      "sha256": "05f67634616a05c9c292d9b9d23e543e4ce67b14394ed960cde9ed3dbd704110"
+      "bytes": 3909,
+      "sha256": "765e7c94d16933135077ccb49f8b9ebbf811d1ddf04a2ddfc842f6a6b3e8f3d4"
     },
     {
       "path": "rejections.json",
@@ -188,9 +198,24 @@
       "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
     },
     {
+      "path": "source-result-contract.json",
+      "bytes": 6871,
+      "sha256": "9a829b689156a36ba54a854fd6b2a697931cce40c7f540dd52fde0c42197d194"
+    },
+    {
       "path": "SOURCE-RIGHTS-REVIEW.md",
       "bytes": 1554,
       "sha256": "1d8ad91d34c5f8052be3ddd8687ad5e50b161b12fbfc3e1af12a11505e96e4a9"
+    },
+    {
+      "path": "test-presentation-contract.cjs",
+      "bytes": 1923,
+      "sha256": "a4a1734ea3d00c17ffeed7abbd605663459b7c190b695d2396cc58da93215cec"
+    },
+    {
+      "path": "test-source-result-contract.cjs",
+      "bytes": 1416,
+      "sha256": "cbadaf0576ecc2884c7523902880d2068e3a9b6b63df418359ab42219af2e386"
     },
     {
       "path": "test.cjs",
@@ -199,8 +224,8 @@
     },
     {
       "path": "tool.json",
-      "bytes": 41174,
-      "sha256": "de1864c9e430cc8f394b9120a294b3883b6d478ac19eaf0ad5644ec9f57c6158"
+      "bytes": 42683,
+      "sha256": "b3a6ba1348fcf3b667ebe330bc5f51c08815812c7519fb557bd80f155e6a4dfa"
     }
   ]
 }
